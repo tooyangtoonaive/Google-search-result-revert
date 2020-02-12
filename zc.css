@@ -1,0 +1,21 @@
+@-moz-document regexp("http\\w*:\\/\\/w?w?w?\\.?google\\..+?\\/search\\?.*")
+{
+    /* author https://www.reddit.com/r/google/comments/epdros/this_new_google_search_layout_theyre_testing_on/ */
+    .r > a { display: table !important; }
+    .r > a > .B6fmyf { display: table-footer-group !important; }
+    .r > a > .LC20lb { display: table-header-group !important; }
+    .r > .B6fmyf { top: 25px !important; }
+    /* .xA33Gc {display:none;}*/ /* remove icon */
+    /* .iUh30 { color: #0a5922; } */
+  /*
+    .r > a { display: table !important; }
+    .r > a > .B6fmyf { display: table-footer-group !important; }
+    .r > a > .LC20lb { display: table-header-group !important; }
+    .r > .B6fmyf { top: 25px !important; }
+    .TbwUpd cite, a.ab_button, a.ab_button:visited {color: #006d21}
+    .TbwUpd {order: 5;}
+    .r img.xA33Gc {display: none;}
+  */
+  
+  
+}
